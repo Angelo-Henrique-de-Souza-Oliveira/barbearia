@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-image: url('https://images.unsplash.com/photo-1629194898512-b6b8697063ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=831&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(255, 167, 1, 0.8);
+    color: lightgray;
+    padding: 0.5em;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.hdr_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 5em;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+.logo {
+    display: inline-block;
+    text-align: center;
+}
+.logo h1 {
+    padding: 0;
+    margin-top: 2px;
+    font-family: 'Ewert', cursive;
+    color: black;
+}
+.logo img {
+    padding: 0;
+}
+.hdr_content nav a {
+    font-weight: bold;
+    color: black;
+    padding: 0 0.1em;
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.hdr_content nav a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+main {
+    padding: 0 5em;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: lightgoldenrodyellow;
+}
+#welcome{
+    padding: 1em 8em;
+    text-align: center;
+    background-color: rgb(27, 27, 27, 0.8);
+    margin: 0;
+}
+.img_line{
+    border-radius: 50%;
+}
+.first_line{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 1em 5em;
+    display: flex;
+}
+#desc {
+    padding: 1em 2em;
+}
+#desc h3{
+    font-size: 35px;
+}
+#desc p{
+    font-size: 20px;
+}
+.second_line{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 1em 5em;
+    display: flex; 
+}
+.map_line{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 2em 6em;
+}
+.contact_line{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 2em 6em;
+}
+.contact_list{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 2em 6em;
+    display: flex;
+}
+.contact_list_card{
+    background-color: rgb(255, 167, 1, 0.8);
+    padding: 3em;
+    width: 20%;
+    text-align: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    color: black;
+}
+.contact_line a{
+    text-decoration: none;
+    color: black;
+}
+.head_price_line{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 2em 6em;
+}
+.head_price_line h1{
+    margin: 0;
+}
+.price_line{
+    background-color: rgb(27, 27, 27, 0.8);
+    padding: 2em 6em;
+    display: flex;
+}
+.price_card{
+    width: 20%;
+    padding: 3em;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(255, 167, 1, 0.8);
+    border: 3px solid black;
+    color: black;
+}
+.price2_card{
+    width: 10%;
+    padding: 3em;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(255, 167, 1, 0.8);
+    border: 3px solid black;
+    color: black;
+}
+footer{
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(255, 167, 1, 0.8);
+    align-content: center;
+    
+}
+#foot{
+    width: 400px;
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 3px solid black;
+    border-radius: 5%;
+}
